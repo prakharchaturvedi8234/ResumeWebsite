@@ -1,0 +1,42 @@
+/* General Page Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #1c1c1c; /* Dark Background */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Box */
+.nav-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* White Links */
+nav a, a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover Effect */
+nav a:hover, a:hover {
+    color: #FFD700; /* Gold Effect */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Boxed Sections for Clean Layout */
+.box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+
